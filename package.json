@@ -1,0 +1,15 @@
+{
+  "name": "marvelcode-mod-bot",
+  "version": "1.0.0",
+  "description": "Discord Moderasyon Botu — MarvelCode ❤️ RaylaxDev",
+  "main": "mod-bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node mod-bot.js",
+    "dev":   "node --watch mod-bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "@napi-rs/canvas": "^0.1.56"
+  }
+}
